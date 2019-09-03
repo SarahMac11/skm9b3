@@ -1,5 +1,7 @@
 #Requirements for a system that is used to manage photographic images for a newspaper.
 
+# First person retreived from: justmeguysjess/jadqr4/lecture-labs/tw3
+
 Who are the stakeholders?
 	Editor
 	Photographer
@@ -28,3 +30,8 @@ What are the functional requirements? Must:
 	Who is in charge of storing and keeping data clean within database? Database Team, Security, 3rd party vendor, etc.?
 	Do end users have access to all of what is published or only specific access?
 		- Subscribed users? Professional users? Bloggers? Regular users?
+	Type of photo organization?
+		- Who can view what photos?
+		- Who can edit what photos?
+		- Who can remove/delete what photos?
+		- Who can publish what photos?
