@@ -1,0 +1,36 @@
+# RW3: Brainstorming Activity
+
+## Brainstorming
+- Software system that analyzes open-source software metrics reflect:
+    - How well collaboration is working on project
+    - Health of the project for customers and streamlining business/engineer communication
+
+### Requirements
+(Practicality)(Priority)
+- (1)(2) Metrics should be tracked with automated updates.
+- (3)(3) Notifications should be relayed to people working on the project.
+- (1)(2) Investors need a UI to visualize data.
+- (2)(4) Developers need access to a database to store metrics data.
+- Users:
+    - (3)(4) Should be able to implement the API into any part of the system
+    - (1)(2) Would like better visualizations of metrics
+    - (3)(1) System needs multiple user endpoints (API) to access specific metrics for their respective roles
+    - (1)(1) Users need version control implemented to track timestamps of commits, issues, pull requests, etc.
+    
+### Functional Requirements
+- (1)(1) Customer can monitor commits/pulls/forks over time, average size of commits, etc.
+- (2)(1) Customer can monitor developer interaction (how often are people talking)
+- (1)(1) Customer can visit repositories to get metrics
+- (4)(1) Customer can sort projects by comparing metrics to successful projects
+- (4)(1) Customer can find and "rate" project similarity
+- (2)(1) Customer have a UI system to display metrics in different ways
+
+### System Requirements
+- System needs a massive database system for developers.
+
+Metrics are based on:
+- How often commits are made
+- Volume of commits
+- Time elapsed between commits
+- Number of people working on branches
+- Tracking code reuse in other projects
