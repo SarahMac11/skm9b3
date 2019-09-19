@@ -1,0 +1,21 @@
+## Intro to Pytest
+
+## After cloning the new repository and entering intro-to-pytest folder, I was able to easily access each of the turorial and test files in GitHub.
+
+# 00: An Empty Test
+This tutorial covered an empty test where the test automatically PASSED due to the fact that there were not raised exceptions and it also does not assert anything, so the test is passed always.
+
+# 01: A Basic Test
+This tutorial intruduced us to the assert operator, where after altering the DATA_SET within one of the assertions, the test FAILED and showed the pytest failure specifically as being "9: AssertionError" and also included the specific assert operator where the test failed.
+
+# 02: Special Assertions
+This tutorial used special assertions by raising exceptions. When changing the ZeroDivisionError in pytest.raises, the test then fails since the exception did NOT occur. 
+
+# 03: Reviwing the Basics
+This tutorial covered unittest modules within simply PyTest tests, PyTests with assertions. It also covered the pytest.raises and pytest.approx exceptions.
+
+# 04: Intro to Fixtures  
+This tutorial covered the pytest.fixture decorator where each fixture function was tested for each case since there were dependencies on the fixtures. In addition, when the argument was changed on the fixture that was dependent on it, then that specific fixture function failed during the PyTest.
+
+#05: Fixture Returns
+This tutorial covered the outputs that the fixtures returned, where only one fixture output is also captured in the PyTest.
